@@ -1,0 +1,14 @@
+_OpenUSART: CODE, 2364 0 104
+___awdiv: CODE, 2062 0 164
+__stringdata: SMALLCONST, 2049 0 12
+_Interrupcion: CODE, 8 0 2356
+_main: CODE, 2652 0 88
+__initialization: CODE, 2814 0 36
+_putsUSART: CODE, 2468 0 92
+_x_delay_ms: CODE, 2740 0 74
+i2_putsUSART: CODE, 2560 0 92
+_WriteUSART: CODE, 2918 0 18
+_baudUSART: CODE, 2954 0 8
+i2_WriteUSART: CODE, 2936 0 18
+_ReadUSART: CODE, 2860 0 30
+Total: 3092
