@@ -127,23 +127,21 @@
 [v ___aslmul __aslmul `(ul  1 e 4 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\ubaud.c
 [v _baudUSART baudUSART `(v  1 e 0 0 ]
+"14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\ugets.c
+[v _getsUSART getsUSART `(v  1 e 0 0 ]
 "73 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uopen.c
 [v _OpenUSART OpenUSART `(v  1 e 0 0 ]
 "14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uputs.c
 [v _putsUSART putsUSART `(v  1 e 0 0 ]
-[v i2_putsUSART putsUSART `(v  1 e 0 0 ]
 "15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uread.c
 [v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
 "13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uwrite.c
 [v _WriteUSART WriteUSART `(v  1 e 0 0 ]
-[v i2_WriteUSART WriteUSART `(v  1 e 0 0 ]
-"13 C:\mplabxProject\bluetooth_led.X\main.c
+"15 C:\mplabxProject\bluetooth_led.X\main.c
 [v _x_delay_ms x_delay_ms `(v  1 e 0 0 ]
-"21
+"23
 [v _main main `(v  1 e 0 0 ]
-"49
-[v _Interrupcion Interrupcion `II(v  1 e 0 0 ]
-[s S220 . 1 `uc 1 RC0 1 0 :1:0 
+[s S139 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -153,37 +151,37 @@
 `uc 1 RC7 1 0 :1:7 
 ]
 "2690 C:\Program Files (x86)\Microchip\xc8\v1.32\include\pic18f2550.h
-[s S229 . 1 `uc 1 T1OSO 1 0 :1:0 
+[s S148 . 1 `uc 1 T1OSO 1 0 :1:0 
 `uc 1 T1OSI 1 0 :1:1 
 `uc 1 CCP1 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 TX 1 0 :1:6 
 `uc 1 RX 1 0 :1:7 
 ]
-[s S236 . 1 `uc 1 T13CKI 1 0 :1:0 
+[s S155 . 1 `uc 1 T13CKI 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 P1A 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 CK 1 0 :1:6 
 `uc 1 DT 1 0 :1:7 
 ]
-[s S243 . 1 `uc 1 . 1 0 :1:0 
+[s S162 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 CCP2 1 0 :1:1 
 ]
-[s S246 . 1 `uc 1 . 1 0 :2:0 
+[s S165 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PA1 1 0 :1:2 
 ]
-[s S249 . 1 `uc 1 . 1 0 :1:0 
+[s S168 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 PA2 1 0 :1:1 
 ]
-[s S252 . 1 `uc 1 . 1 0 :3:0 
+[s S171 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 RC3 1 0 :1:3 
 ]
-[u S255 . 1 `S220 1 . 1 0 `S229 1 . 1 0 `S236 1 . 1 0 `S243 1 . 1 0 `S246 1 . 1 0 `S249 1 . 1 0 `S252 1 . 1 0 ]
-[v _PORTCbits PORTCbits `VES255  1 e 1 @3970 ]
+[u S174 . 1 `S139 1 . 1 0 `S148 1 . 1 0 `S155 1 . 1 0 `S162 1 . 1 0 `S165 1 . 1 0 `S168 1 . 1 0 `S171 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES174  1 e 1 @3970 ]
 "3827
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-[s S551 . 1 `uc 1 TRISC0 1 0 :1:0 
+[s S458 . 1 `uc 1 TRISC0 1 0 :1:0 
 `uc 1 TRISC1 1 0 :1:1 
 `uc 1 TRISC2 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
@@ -191,21 +189,21 @@
 `uc 1 TRISC7 1 0 :1:7 
 ]
 "3859
-[s S558 . 1 `uc 1 RC0 1 0 :1:0 
+[s S465 . 1 `uc 1 RC0 1 0 :1:0 
 `uc 1 RC1 1 0 :1:1 
 `uc 1 RC2 1 0 :1:2 
 `uc 1 . 1 0 :3:3 
 `uc 1 RC6 1 0 :1:6 
 `uc 1 RC7 1 0 :1:7 
 ]
-[s S565 . 1 `uc 1 . 1 0 :3:0 
+[s S472 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 TRISC3 1 0 :1:3 
 ]
-[u S568 . 1 `S551 1 . 1 0 `S558 1 . 1 0 `S565 1 . 1 0 ]
-[v _TRISCbits TRISCbits `VES568  1 e 1 @3988 ]
+[u S475 . 1 `S458 1 . 1 0 `S465 1 . 1 0 `S472 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES475  1 e 1 @3988 ]
 "4056
 [v _PIE1 PIE1 `VEuc  1 e 1 @3997 ]
-[s S308 . 1 `uc 1 TMR1IF 1 0 :1:0 
+[s S249 . 1 `uc 1 TMR1IF 1 0 :1:0 
 `uc 1 TMR2IF 1 0 :1:1 
 `uc 1 CCP1IF 1 0 :1:2 
 `uc 1 SSPIF 1 0 :1:3 
@@ -214,19 +212,19 @@
 `uc 1 ADIF 1 0 :1:6 
 ]
 "4080
-[s S316 . 1 `uc 1 . 1 0 :5:0 
+[s S257 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 RC1IF 1 0 :1:5 
 ]
-[s S319 . 1 `uc 1 . 1 0 :4:0 
+[s S260 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 TX1IF 1 0 :1:4 
 ]
-[u S322 . 1 `S308 1 . 1 0 `S316 1 . 1 0 `S319 1 . 1 0 ]
-[v _PIE1bits PIE1bits `VES322  1 e 1 @3997 ]
+[u S263 . 1 `S249 1 . 1 0 `S257 1 . 1 0 `S260 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES263  1 e 1 @3997 ]
 "4153
-[v _PIR1bits PIR1bits `VES322  1 e 1 @3998 ]
+[v _PIR1bits PIR1bits `VES263  1 e 1 @3998 ]
 "4568
 [v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
-[s S443 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S350 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -236,22 +234,22 @@
 `uc 1 SPEN 1 0 :1:7 
 ]
 "4609
-[s S452 . 1 `uc 1 . 1 0 :3:0 
+[s S359 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 ADEN 1 0 :1:3 
 ]
-[s S455 . 1 `uc 1 . 1 0 :5:0 
+[s S362 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 SRENA 1 0 :1:5 
 ]
-[s S458 . 1 `uc 1 . 1 0 :6:0 
+[s S365 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC8_9 1 0 :1:6 
 ]
-[s S461 . 1 `uc 1 . 1 0 :6:0 
+[s S368 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 RC9 1 0 :1:6 
 ]
-[s S464 . 1 `uc 1 RCD8 1 0 :1:0 
+[s S371 . 1 `uc 1 RCD8 1 0 :1:0 
 ]
-[u S466 . 1 `S443 1 . 1 0 `S452 1 . 1 0 `S455 1 . 1 0 `S458 1 . 1 0 `S461 1 . 1 0 `S464 1 . 1 0 ]
-[v _RCSTAbits RCSTAbits `VES466  1 e 1 @4011 ]
+[u S373 . 1 `S350 1 . 1 0 `S359 1 . 1 0 `S362 1 . 1 0 `S365 1 . 1 0 `S368 1 . 1 0 `S371 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES373  1 e 1 @4011 ]
 "4777
 [v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
 [s S29 . 1 `uc 1 TX9D 1 0 :1:0 
@@ -304,101 +302,60 @@
 [v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
 "5600
 [v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
-[s S128 . 1 `uc 1 RBIF 1 0 :1:0 
-`uc 1 INT0IF 1 0 :1:1 
-`uc 1 TMR0IF 1 0 :1:2 
-`uc 1 RBIE 1 0 :1:3 
-`uc 1 INT0IE 1 0 :1:4 
-`uc 1 TMR0IE 1 0 :1:5 
-`uc 1 PEIE_GIEL 1 0 :1:6 
-`uc 1 GIE_GIEH 1 0 :1:7 
-]
-"8049
-[s S137 . 1 `uc 1 RBIF 1 0 :1:0 
-`uc 1 INT0IF 1 0 :1:1 
-`uc 1 TMR0IF 1 0 :1:2 
-`uc 1 RBIE 1 0 :1:3 
-`uc 1 INT0IE 1 0 :1:4 
-`uc 1 TMR0IE 1 0 :1:5 
-`uc 1 PEIE 1 0 :1:6 
-`uc 1 GIE 1 0 :1:7 
-]
-[s S146 . 1 `uc 1 RBIF 1 0 :1:0 
-`uc 1 INT0IF 1 0 :1:1 
-`uc 1 TMR0IF 1 0 :1:2 
-`uc 1 RBIE 1 0 :1:3 
-`uc 1 INT0IE 1 0 :1:4 
-`uc 1 TMR0IE 1 0 :1:5 
-`uc 1 GIEL 1 0 :1:6 
-`uc 1 GIEH 1 0 :1:7 
-]
-[s S155 . 1 `uc 1 . 1 0 :1:0 
-`uc 1 INT0F 1 0 :1:1 
-`uc 1 T0IF 1 0 :1:2 
-`uc 1 . 1 0 :1:3 
-`uc 1 INT0E 1 0 :1:4 
-`uc 1 T0IE 1 0 :1:5 
-`uc 1 PEIE 1 0 :1:6 
-`uc 1 GIE 1 0 :1:7 
-]
-[s S164 . 1 `uc 1 . 1 0 :6:0 
-`uc 1 GIEL 1 0 :1:6 
-`uc 1 GIEH 1 0 :1:7 
-]
-[u S168 . 1 `S128 1 . 1 0 `S137 1 . 1 0 `S146 1 . 1 0 `S155 1 . 1 0 `S164 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES168  1 e 1 @4082 ]
-[s S669 . 1 `uc 1 RX_NINE 1 0 :1:0 
+[s S580 . 1 `uc 1 RX_NINE 1 0 :1:0 
 `uc 1 TX_NINE 1 0 :1:1 
 `uc 1 FRAME_ERROR 1 0 :1:2 
 `uc 1 OVERRUN_ERROR 1 0 :1:3 
 `uc 1 fill 1 0 :4:4 
 ]
 "5 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\udefs.c
-[u S675 USART 1 `uc 1 val 1 0 `S669 1 . 1 0 ]
-[v _USART_Status USART_Status `S675  1 e 1 0 ]
+[u S586 USART 1 `uc 1 val 1 0 `S580 1 . 1 0 ]
+[v _USART_Status USART_Status `S586  1 e 1 0 ]
 "10 C:\mplabxProject\bluetooth_led.X\main.c
 [v _CaracterRx CaracterRx `uc  1 e 1 0 ]
 "11
-[v _MensajeTx MensajeTx `[27]uc  1 e 27 0 ]
-"21
+[v _MensajeTx MensajeTx `[7]uc  1 e 7 0 ]
+"12
+[v _Rxdata Rxdata `[25]uc  1 e 25 0 ]
+"13
+[v _Txdata Txdata `[16]uc  1 e 16 0 ]
+"23
 [v _main main `(v  1 e 0 0 ]
 {
+"30
+[v main@spbrg spbrg `ui  1 a 2 13 ]
+"33
+[v main@baudconfig baudconfig `uc  1 a 1 16 ]
 "29
-[v main@spbrg spbrg `ui  1 a 2 33 ]
-"32
-[v main@baudconfig baudconfig `uc  1 a 1 36 ]
-"28
-[v main@config config `uc  1 a 1 35 ]
-"23
-[v main@escritura escritura `uc  1 a 1 32 ]
-"47
+[v main@config config `uc  1 a 1 15 ]
+"67
 } 0
-"13
+"15
 [v _x_delay_ms x_delay_ms `(v  1 e 0 0 ]
 {
-"14
-[v x_delay_ms@cont cont `i  1 a 2 30 ]
-"13
-[v x_delay_ms@x x `i  1 p 2 27 ]
-"19
+"16
+[v x_delay_ms@cont cont `i  1 a 2 11 ]
+"15
+[v x_delay_ms@x x `i  1 p 2 8 ]
+"21
 } 0
 "8 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
 {
 "11
-[v ___awdiv@quotient quotient `i  1 a 2 25 ]
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
 "12
-[v ___awdiv@sign sign `uc  1 a 1 24 ]
-[v ___awdiv@counter counter `uc  1 a 1 23 ]
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
 "8
-[v ___awdiv@dividend dividend `i  1 p 2 19 ]
-[v ___awdiv@divisor divisor `i  1 p 2 21 ]
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
 "42
 } 0
 "14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uputs.c
 [v _putsUSART putsUSART `(v  1 e 0 0 ]
 {
-[v putsUSART@data data `*.35uc  1 p 2 20 ]
+[v putsUSART@data data `*.39uc  1 p 2 1 ]
 "21
 } 0
 "13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uwrite.c
@@ -407,47 +364,20 @@
 [v WriteUSART@data data `uc  1 a 1 wreg ]
 [v WriteUSART@data data `uc  1 a 1 wreg ]
 "15
-[v WriteUSART@data data `uc  1 a 1 19 ]
+[v WriteUSART@data data `uc  1 a 1 0 ]
 "23
 } 0
-"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\ubaud.c
-[v _baudUSART baudUSART `(v  1 e 0 0 ]
+"14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\ugets.c
+[v _getsUSART getsUSART `(v  1 e 0 0 ]
 {
-[v baudUSART@baudconfig baudconfig `uc  1 a 1 wreg ]
-[v baudUSART@baudconfig baudconfig `uc  1 a 1 wreg ]
+"16
+[v getsUSART@i i `uc  1 a 1 5 ]
 "17
-[v baudUSART@baudconfig baudconfig `uc  1 a 1 19 ]
-"18
-} 0
-"73 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uopen.c
-[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
-{
-[v OpenUSART@config config `uc  1 a 1 wreg ]
-[v OpenUSART@config config `uc  1 a 1 wreg ]
-[v OpenUSART@spbrg spbrg `ui  1 p 2 19 ]
-"75
-[v OpenUSART@config config `uc  1 a 1 24 ]
-"143
-} 0
-"49 C:\mplabxProject\bluetooth_led.X\main.c
-[v _Interrupcion Interrupcion `II(v  1 e 0 0 ]
-{
-"56
-} 0
-"14 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uputs.c
-[v i2_putsUSART putsUSART `(v  1 e 0 0 ]
-{
-[v i2putsUSART@data data `*.35uc  1 p 2 1 ]
-"21
-} 0
-"13 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uwrite.c
-[v i2_WriteUSART WriteUSART `(v  1 e 0 0 ]
-{
-[v i2WriteUSART@data data `uc  1 a 1 wreg ]
-[v i2WriteUSART@data data `uc  1 a 1 wreg ]
-"15
-[v i2WriteUSART@data data `uc  1 a 1 0 ]
-"23
+[v getsUSART@data data `uc  1 a 1 4 ]
+"14
+[v getsUSART@buffer buffer `*.39uc  1 p 2 1 ]
+[v getsUSART@len len `uc  1 p 1 3 ]
+"28
 } 0
 "15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uread.c
 [v _ReadUSART ReadUSART `(uc  1 e 1 0 ]
@@ -455,4 +385,23 @@
 "17
 [v ReadUSART@data data `uc  1 a 1 0 ]
 "37
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\ubaud.c
+[v _baudUSART baudUSART `(v  1 e 0 0 ]
+{
+[v baudUSART@baudconfig baudconfig `uc  1 a 1 wreg ]
+[v baudUSART@baudconfig baudconfig `uc  1 a 1 wreg ]
+"17
+[v baudUSART@baudconfig baudconfig `uc  1 a 1 0 ]
+"18
+} 0
+"73 C:\Program Files (x86)\Microchip\xc8\v1.32\sources\pic18\plib\USART\uopen.c
+[v _OpenUSART OpenUSART `(v  1 e 0 0 ]
+{
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@config config `uc  1 a 1 wreg ]
+[v OpenUSART@spbrg spbrg `ui  1 p 2 0 ]
+"75
+[v OpenUSART@config config `uc  1 a 1 5 ]
+"143
 } 0

@@ -5812,7 +5812,8 @@ extern __nonreentrant void _delay3(unsigned char);
 
 # 10 "main.c"
 char CaracterRx;
-char MensajeTx[]="COMUNICACION SATISFACTORIA";
+char MensajeTx[]="HOLA\n\r";
+
 
 void x_delay_ms(int x) {
 int cont = x/10;
@@ -5829,7 +5830,7 @@ TRISC = 0b00000000;
 RCSTA&=0b01001111,TXSTAbits.TXEN=0,PIE1&=0b11001111;
 
 unsigned char config = 0b01111111 & 0b11111111 & 0b11111110 & 0b11111101 & 0b11111111&0b11111111;
-unsigned int spbrg = 624;
+unsigned int spbrg = 103;
 OpenUSART(config, spbrg);
 
 unsigned char baudconfig = 0b11111111&0b11111110;
@@ -5839,22 +5840,20 @@ INTCONbits.PEIE=1;
 INTCONbits.GIE=1;
 
 while((!TXSTAbits.TRMT));
-putsUSART(MensajeTx);
+putsUSART(&MensajeTx);
+
 
 while (1) {
-PORTCbits.RC0 = ~PORTCbits.RC0;;
 x_delay_ms(250);
 PORTCbits.RC1 = ~PORTCbits.RC1;;
-
 }
 }
 
 void interrupt Interrupcion(){
 CaracterRx=ReadUSART();
+PORTCbits.RC0 = ~PORTCbits.RC0;;
 while((!TXSTAbits.TRMT));
-putsUSART("\n\rEnviado: ");
-while((!TXSTAbits.TRMT));
-WriteUSART(CaracterRx);
+putsUSART(&CaracterRx);
 PIR1bits.RCIF=0;
 }
 
